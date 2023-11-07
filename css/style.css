@@ -95,6 +95,10 @@ header {
 /* 
     MAIN
 */
+
+/* 
+    SECTION 1
+*/
 .section-1-container {
     width: 100vw;
     height: 1200px;
@@ -131,7 +135,7 @@ header {
 }
 
 .section-1-container-2-child {
-    width: calc((100% / 3) - 30px);
+    width: calc((100% / 3) - 20px);
     height: 100%;
     border: 1px dashed black;
 }
@@ -153,3 +157,83 @@ header {
     height: 40px;
     border: 1px dashed black;
 }
+
+/* 
+    SECTION 2
+*/
+.section-2-container {
+    width: 100vw;
+    height: 400px;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+}
+
+.section-2-restricted-container {
+    width: 50%;
+    height: 400px;
+    border: 1px dashed black;
+}
+
+/* 
+    SECTION 3
+*/
+.section-3-container {
+    width: 100vw;
+    height: 700px;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+}
+
+.section-3-restricted-container {
+    width: 50%;
+    height: 700px;
+    border: 1px dashed black;
+}
+
+.section-3-restricted-container h2 {
+    margin-bottom: 32px;
+}
+
+.section-3-restricted-container h2 {
+    margin-bottom: 32px;
+}
+
+.h2-container {
+    height: 48px;
+}
+
+.section-3-container-2 {
+    width: 100%;
+    height: calc(100% - 48px);
+    border: 1px dashed black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-3-container-2-child {
+    width: calc((100% / 3) - 20px);
+    margin-bottom: 20px;
+    height: calc((100% / 2) - 10px);
+    border: 1px dashed black;
+}
+
+/* 
+    SECTION 4
+*/
+.section-4-container {
+    width: 100vw;
+    height: 350px;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+}
+
+.section-4-restricted-container {
+    width: 50%;
+    height: 350px;
+    border: 1px dashed black;
+}
+
