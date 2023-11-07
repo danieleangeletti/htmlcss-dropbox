@@ -11,7 +11,7 @@
 /* 
     GENERAL
 */
-main section {
+main section:not(:nth-child(5)) {
     margin-bottom: 100px;
 }
 /* 
@@ -236,4 +236,101 @@ header {
     height: 350px;
     border: 1px dashed black;
 }
+
+/* 
+    SECTION 5
+*/
+.section-5-container {
+    width: 100vw;
+    height: calc(100vw / 3);
+    border: 1px dashed black;
+    display: flex;
+}
+
+.section-5-container-child {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    border: 1px dashed black;
+}
+
+.section-5-container .section-5-container-child:nth-child(odd) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-5-container-nephew {
+    width: 49.4%; /* WTF? 😡 */
+    height: 50%;
+    border: 1px dashed black;
+}
+
+/* 
+    SECTION 6
+*/
+.section-6-container {
+    width: 100vw;
+    height: calc(100vw / 6);
+    border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+}
+
+.section-6-restricted-container {
+    width: 50%;
+    height: calc(100vw / 6);
+    border: 1px dashed black;
+}
+
+/* 
+    SECTION 7
+*/
+.section-7-container {
+    width: 100vw;
+    height: 450px;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-7-restricted-container {
+    width: 50%;
+    height: 350px;
+    border: 1px dashed black;
+}
+
+/* 
+    FOOTER
+*/
+.footer-top-container {
+    width: 100vw;
+    height: 400px;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top-restricted-container {
+    width: 60%;
+    height: 400px;
+    border: 1px dashed black;
+}
+
+.footer-bottom-container {
+    width: 100vw;
+    height: 100px;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom-restricted-container {
+    width: 60%;
+    height: 100px;
+    border: 1px dashed black;
+}
+
+
 
