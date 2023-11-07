@@ -14,8 +14,14 @@
 main section:not(:nth-child(5)) {
     margin-bottom: 100px;
 }
+
+.button {
+    padding: 10px;
+    background-color: #015AEE;
+}
+
 /* 
-    HEADER
+    HEADER-TOP
 */
 header {
     margin-bottom: 100px;
@@ -24,33 +30,64 @@ header {
 .header-top {
     width: 100vw;
     height: 40px;
-    border: 1px dashed black;
     display: flex;
     justify-content: space-between;
 }
 
+.header-top {
+    font-size: 15px;
+}
+
 .header-top-left {
-    width: 400px;
+    width: 550px;
     height: 40px;
-    border: 1px dashed black;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .header-top-right {
-    width: 400px;
+    width: 550px;
     height: 40px;
-    border: 1px dashed black;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
-.header-top-box {
-    width: calc(100% / 4.3);
+.header-top .header-top-left .header-top-box {
     height: 40px;
-    border: 1px dashed black;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
 }
 
+.header-top .header-top-right .header-top-box:not(:nth-child(4)) {
+    height: 40px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+}
+
+.header-top .header-top-right .header-top-box:nth-child(4) {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.header-top-box a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-top-box img {
+    width: 100%;
+}
+
+.header-top .header-top-right .header-top-box:last-child a {
+    color: white;
+}
+
+/* 
+    HEADER-BOTTOM
+*/
 .header-bottom {
     width: 100vw;
     height: 400px; /* forse poi dovrai mettere max-height */
