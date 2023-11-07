@@ -20,6 +20,10 @@ main section:not(:nth-child(5)) {
     background-color: #015AEE;
 }
 
+.no-decoration {
+    text-decoration: none;
+}
+
 /* 
     HEADER-TOP
 */
@@ -90,8 +94,8 @@ header {
 */
 .header-bottom {
     width: 100vw;
-    height: 400px; /* forse poi dovrai mettere max-height */
-    border: 1px dashed black;
+    height: 400px;
+    background-color: #B4D0E7;
     display: flex;
     justify-content: center;
 }
@@ -99,34 +103,50 @@ header {
 .header-bottom-container {
     width: 60%;
     height: 400px;
-    border: 1px dashed black;
 }
 
 .h1-container {
     height: 120px;
-}
-
-.h1-container h1 {
-    line-height: 120px;
+    display: flex;
+    align-items: center;
 }
 
 .header-bottom-container-2 {
     width: 100%;
     height: calc(100% - 120px);
-    border: 1px dashed black;
     display: flex;
 }
 
 .header-bottom-container-3 {
     width: 35%;
     height: 100%;
-    border: 1px dashed black;
 }
 
 .header-bottom-container-4 {
     width: 75%;
     height: calc(100% + 50px);
-    border: 1px dashed black;
+}
+
+.header-bottom img {
+    width: 100%;
+}
+
+.header-bottom p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.free-trial {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.free-trial a {
+    color: white;
+}
+
+.cancel a {
+    color: black;
 }
 
 /* 
