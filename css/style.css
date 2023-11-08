@@ -87,6 +87,10 @@ main section:not(:nth-child(5)) {
     margin-left: 24px;
 }
 
+.margin-right-4 {
+    margin-right: 4px;
+}
+
 .margin-right-8 {
     margin-right: 8px;
 }
@@ -587,12 +591,19 @@ header {
 }
 
 /* 
-    FOOTER
+    FOOTER TOP
 */
+footer {
+    background-color: black;
+}
+
+.footer-top-container * {
+    color: white;
+    font-size: 0.97em;
+}
+
 .footer-top-container {
     width: 100vw;
-    height: 400px;
-    border: 1px dashed black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -600,14 +611,35 @@ header {
 
 .footer-top-restricted-container {
     width: 60%;
-    height: 400px;
-    border: 1px dashed black;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.footer-col {
+    width: calc(100% / 5);
+}
+
+.footer-top-container a {
+    text-decoration: none;
+}
+
+.footer-top-container ul {
+    list-style-type: none;
+}
+
+.footer-top-container ul li {
+    margin-bottom: 16px;
+}
+
+/* 
+    FOOTER BOTTOM
+*/
+.footer-bottom-container * {
+    color: white;
 }
 
 .footer-bottom-container {
     width: 100vw;
-    height: 100px;
-    border: 1px dashed black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -616,8 +648,13 @@ header {
 .footer-bottom-restricted-container {
     width: 60%;
     height: 100px;
-    border: 1px dashed black;
 }
+
+.footer-bottom-container hr {
+    width: 12%;
+}
+
+
 
 
 
