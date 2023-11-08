@@ -35,6 +35,14 @@ main section:not(:nth-child(5)) {
     border: 1px solid black;
 }
 
+.button-4 {
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    background-color: white;
+}
+
 .black {
     color: black;
 }
@@ -61,6 +69,10 @@ main section:not(:nth-child(5)) {
 
 .margin-top-40 {
     margin-top: 40px;
+}
+
+.margin-top-80 {
+    margin-top: 80px;
 }
 
 .margin-left-16 {
@@ -513,16 +525,30 @@ header {
 */
 .section-6-container {
     width: 100vw;
-    height: calc(100vw / 6);
-    border: 1px dashed black;
+    min-height: calc(100vw / 6);
+    background-color: #B4D0E7;
     display: flex;
     justify-content: center;
 }
 
+.section-6-container h2 {
+    color: #62092B;
+ }
+
 .section-6-restricted-container {
     width: 50%;
-    height: calc(100vw / 6);
-    border: 1px dashed black;
+    min-height: calc(100vw / 6);
+    display: flex;
+    align-items: center;
+}
+
+.bring-dropbox {
+    width: 50%;
+}
+
+.start-free-trial {
+    width: 50%;
+    text-align: end;
 }
 
 /* 
