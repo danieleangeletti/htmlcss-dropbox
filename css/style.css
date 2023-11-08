@@ -392,16 +392,24 @@ header {
 */
 .section-4-container {
     width: 100vw;
-    height: 350px;
-    border: 1px dashed black;
     display: flex;
     justify-content: center;
 }
 
 .section-4-restricted-container {
     width: 50%;
-    height: 350px;
-    border: 1px dashed black;
+}
+
+.h2-container {
+    width: 50%;
+}
+
+.section-4-container a {
+    color: #015AEE;
+}
+
+.section-4-container h2 {
+    line-height: 32px;
 }
 
 /* 
