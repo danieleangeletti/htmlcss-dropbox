@@ -127,6 +127,10 @@ main section:not(:nth-child(5)) {
     margin-bottom: 80px;
 }
 
+.padding-8 {
+    padding: 16px;
+}
+
 .padding-top-8 {
     padding-top: 8px;
 }
@@ -159,7 +163,7 @@ header {
 }
 
 .header-top {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -212,7 +216,7 @@ header {
     HEADER-BOTTOM
 */
 .header-bottom {
-    width: 100vw;
+    width: 100%;
     background-color: #B4D0E7;
     display: flex;
     justify-content: center;
@@ -268,7 +272,7 @@ header {
     SECTION 1
 */
 .section-1-container {
-    width: 100vw;
+    width: 100%;
     min-height: 1200px;
     display: flex;
     justify-content: center;
@@ -353,7 +357,7 @@ header {
     SECTION 2
 */
 .section-2-container {
-    width: 100vw;
+    width: 100%;
     min-height: 300px;
     display: flex;
     justify-content: center;
@@ -381,7 +385,7 @@ header {
     SECTION 3
 */
 .section-3-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -410,7 +414,7 @@ header {
     SECTION 4
 */
 .section-4-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -435,7 +439,7 @@ header {
     SECTION 5
 */
 .section-5-container {
-    width: 100vw;
+    width: 100%;
     height: calc(100vw / 3);
     display: flex;
 }
@@ -527,7 +531,7 @@ header {
     SECTION 6
 */
 .section-6-container {
-    width: 100vw;
+    width: 100%;
     min-height: calc(100vw / 6);
     background-color: #B4D0E7;
     display: flex;
@@ -558,7 +562,7 @@ header {
     SECTION 7
 */
 .section-7-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -598,7 +602,7 @@ footer {
 }
 
 .footer-top-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -634,7 +638,7 @@ footer {
 }
 
 .footer-bottom-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
