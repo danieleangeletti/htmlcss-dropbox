@@ -233,12 +233,10 @@ header {
 
 .header-bottom-container-3 {
     width: 35%;
-    height: 100%;
 }
 
 .header-bottom-container-4 {
     width: 75%;
-    height: calc(100% + 50px);
 }
 
 .header-bottom img {
@@ -248,11 +246,6 @@ header {
 .header-bottom p {
     font-size: 14px;
     line-height: 20px;
-}
-
-.free-trial {
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 .free-trial a {
@@ -273,14 +266,12 @@ header {
 .section-1-container {
     width: 100vw;
     min-height: 1200px;
-    /* border: 1px dashed black; */
     display: flex;
     justify-content: center;
 }
 
 .section-1-restricted-container {
     width: 50%;
-    /* border: 1px dashed black; */
 }
 
 .section-1-restricted-container .billing-container span {
@@ -289,7 +280,6 @@ header {
 
 .section-1-container-2 {
     width: 100%;
-    /* border: 1px dashed black; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
@@ -361,14 +351,12 @@ header {
 .section-2-container {
     width: 100vw;
     min-height: 300px;
-    /* border: 1px dashed black; */
     display: flex;
     justify-content: center;
 }
 
 .section-2-restricted-container {
     width: 50%;
-    /* border: 1px dashed black; */
     display: flex;
 }
 
