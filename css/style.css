@@ -59,6 +59,10 @@ main section:not(:nth-child(5)) {
     display: flex;
 }
 
+.margin-top-minus-24 {
+    margin-top: -24px;
+}
+
 .margin-top-16 {
     margin-top: 16px;
 }
@@ -205,26 +209,25 @@ header {
 */
 .header-bottom {
     width: 100vw;
-    height: 400px;
     background-color: #B4D0E7;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .header-bottom-container {
     width: 60%;
-    height: 400px;
+    position: relative;
+    top: 64px;
 }
 
 .h1-container {
-    height: 120px;
     display: flex;
     align-items: center;
 }
 
 .header-bottom-container-2 {
     width: 100%;
-    height: calc(100% - 120px);
     display: flex;
 }
 
