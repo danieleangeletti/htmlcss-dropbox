@@ -619,6 +619,10 @@ header {
     width: 50%;
 }
 
+.question-new-main-container {
+    width: 100%;
+}
+
 .question-main-container {
     display: flex;
 }
@@ -630,6 +634,39 @@ header {
 .chevron-container {
     width: 20%;
     text-align: end;
+}
+
+/* 
+    ACCORDION
+*/
+.gowp-accordion {
+    font-size: 0.85em;
+    background-color: whitesmoke;
+    color: blueviolet;
+    border: 5px solid blueviolet;
+    list-style: none;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gowp-accordion:hover {
+    padding-left: 25px;
+    background-color: #ECE6DF;
+  }
+
+.gowp-accordion-text {
+    font-size: 0.85em;
+    line-height: 20px;
+    background-color: whitesmoke;
+    color: blue;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 /* 
